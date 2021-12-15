@@ -36,6 +36,8 @@ public class WomenCategoryPage extends Utility {
     }
 
     public String verifyWomenText() {
+        log.info("Varify Women Text : "  + womenText.toString());
+
         return getTextFromElement(womenText);
     }
 

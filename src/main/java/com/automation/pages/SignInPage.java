@@ -81,7 +81,7 @@ public class SignInPage extends Utility {
 
     public void loginToAutomationPractice(String emailId) {
         enterYouremail(emailId);
-      //  enterYourPassword(password);
+
         clickOnSignInButton();
     }
 
